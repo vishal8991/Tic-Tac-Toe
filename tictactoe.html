@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Welcome to Tic Tac Toe Game</title>
+        <meta charset="utf-8" />
+    </head>
+    <body onload="arrangeMenu()">
+        <div id="menu" style="text-align: center;">
+            <h3>Play Tac-Tac-Toe</h3>
+            <h4>Click on button to choose the player mode!!</h4>
+            <div>
+                <input type="button" id="multi" name="Multiplayer" value="Multiplayer">
+                <input type="button" id="compute" name="Computer" value="Computer" disabled="true"> 
+            </div>
+        </div>
+        <br>
+        <hr/>
+        <br>
+        <div id="gamemode">
+            <h2 style="color:#061d0f; text-align: center;">Battleground</h3>
+            <h4 id="players"></h4>
+            <table border="2px" id="battleGround" align="center" style="width: 200px; height: 200px;">
+                <tr align="center">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr align="center">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr align="center">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            
+        </div>
+        <script type="text/javascript" src="scripts/tictic.js"></script>        
+    </body>
+</html>
